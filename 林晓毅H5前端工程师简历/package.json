@@ -1,0 +1,47 @@
+{
+  "name": "resume-it",
+  "version": "1.0.0",
+  "description": "A resume generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "NODE_ENV=production gulp",
+    "public": "rimraf dist && npm run build && node public.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xiao555/Resume-it.git"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "velocity-animate": "^1.4.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "colors": "^1.1.2",
+    "font-awesome": "^4.7.0",
+    "glob": "^7.1.1",
+    "gray-matter": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.2.1",
+    "gulp-fontmin": "^0.7.4",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-size": "^2.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "js-yaml": "^3.8.1",
+    "markdown-it": "^8.3.0",
+    "markdown-it-attrs": "^0.8.0",
+    "nib": "^1.1.2",
+    "path": "^0.12.7",
+    "rimraf": "^2.6.1",
+    "simple-git": "^1.73.0"
+  },
+  "author": "xiao555",
+  "license": "MIT"
+}

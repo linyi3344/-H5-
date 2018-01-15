@@ -1,0 +1,167 @@
+---
+update_time: '2017.08.06'
+name: 林晓毅
+nickname: linyi3344，xiao5555，linxiaoyi345
+meta_content: 两年前端狗，HR姐姐们把我招到碗里去吧
+keywords: linyi,前端,工作,简历
+ga_id: 'UA-92595311-1'
+age: 24岁
+gender: 男
+school: 厦门市海洋学院
+profession: 计算机科学与应用（辅修）
+grade: 
+english_level: general
+blog: http://www.cnblogs.com/suger-life/
+github: https://www.github.com/linyi3344
+
+apply_to_position: Web前端工程师
+description: !!md |
+  我叫林晓毅，厦门市海洋学院毕业生，自学web前端，后端Node.js，PHP Java也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
+contact: # 联系方式
+  -
+    icon: fa-envelope
+    name: Email
+    value: linxiaoyiit@163.com
+  -
+    icon: fa-qq
+    name: QQ
+    value: '523647406'
+  -
+    icon: fa-phone-square
+    name: PhoneNumber
+    value: '13779956526'
+honor: # 奖项荣誉
+tech: # 技能点
+  -
+    name: HTML/CSS
+    percentage: 80%
+  -
+    name: JavaScript
+    percentage: 60%
+  -
+    name: Vue.js
+    percentage: 80%
+  -
+    name: Angular.js
+    percentage: 80%
+  -
+    name: React.js
+    percentage: 80%
+  -
+    name: PHP
+    percentage: 30%
+  -
+    name: Git
+    percentage: 60%
+  -
+    name: Node.js
+    percentage: 40%
+experience: # 项目经验
+  -
+    section: 个人项目
+    project:
+      -
+        name: nunjucks-extend-loader
+        date: 2017.2
+        img:
+        website:
+        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        des: !!md |
+          开发了一个多页应用脚手架[Webjucks](https://github.com/xiao555/Webjucks)，开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+      -
+        name: vue-cli关于windows系统神坑的解决方案
+        date: 2017.5
+        img:
+        website:
+        source_code: https://github.com/linyi3344/vue-cli.git
+        des: !!md |
+          开发了一个vue私人专属脚手架，有效解决windows系统带来的各种恶心的bug，如，路由丢失等。正常配置和非正常配置的小伙伴都能使用，路由和简单的状态管理都搭建好了。
+      -
+        name: react-demo
+        date: 2017.7
+        img:
+        website:
+        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        des: !!md |
+          开发了一套私人的脚手架，如官方脚手架使用有问题可以copy一下我的模板，路由和简单的状态管理都搭建好了，官方脚手架在显示图片方面有坑，鄙人搭建的这个已经优化过了。
+   
+      -
+        name: Blog
+        date: 2017.9-至今
+        img:
+        website:
+        source_code: https://github.com/linyi3344/vue-.git
+        des: !!md |
+          用来练手Vue的项目，vue全家桶开发的博客系统，并且进行了性能优化，加快首屏渲染速度。
+          
+          最近参考vue2.0对前端部分进行了一次重构，对项目实现了状态管理...
+  -
+    section: 工作经历
+    exper:
+      - 
+        company: 厦门诗宝科技有限公司
+        time: 2017.7.14 - 2017.9.1
+        desc: !!md |
+          在厦门诗宝科技有限公司实习，主要做前端方面的实现需求，解决bug等工作。
+        project:
+          -
+            des: !!md |
+              技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
+          -
+            des: !!md |
+              业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
+          -
+            des: !!md |
+              在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，img3像素bug，通过google用filter解决的。
+          -
+            des: !!md |
+              在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。人生第一次职场之旅，我觉得ok。
+      - 
+        company: WPNinja
+        time: 2016.7 - 2017.5
+        desc: 这是一个面向国外客户的远程开发团队，基于wordpress搭建网站，前五个月我负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始配合后端PHP开发。
+        project:
+          -
+            name: SSRGA
+            date: '2016.7'
+            img: https://xiao555.netlify.com/ssrga.jpg
+            website: http://www.ssrga.com/
+            source_code:
+            des: !!md |
+              这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎ejs,jade，sass，数据层YAML语法等等。
+              然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
+          -
+             name: innerdoor
+             date: 2016.11 - 至今
+             img: https://xiao555.netlify.com/innerdoor.jpg
+             website: http://innerdoor.vwmdev.com/
+             source_code:
+             des: !!md |
+               这个项目相当于一个会员系统，数据都是通过API来获取的，有大量的表格，需要从API获取大量的数据，处理数据，渲染到前端页面上。
+               一开始我写了一堆if-else，数据跟表单一一对应，后来发现这样做代码量很大，而且不够灵活。后来重新安排数据结构，用label作为key值，前端表单label作为value值，通过模板引擎跟后端对应起来，这样既大大减少了代码量，也提高了灵活性。
+skill: # 技能清单
+      -
+        des: !!md |
+          能够用 HTML + CSS 编写语义化的代码，完成复杂的布局，如淘宝天猫等。熟悉Sass gulp 等工具
+      -
+        des: !!md |
+          在项目中熟悉了 React+redux，写过React的状态管理，虽然很难，但是很有收获， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.     
+      -
+        des: !!md |
+          顺手学习了Angular和Vue.三个主流框架很多地方类似，较好学，做过demo，了接钩子，了接状态管理，当然Angular没有状态管理这东西。
+      -
+        des: !!md |
+          熟悉 Git Webpack Gulp 等开发工具，还会phonegap混合开发。canvas画布做过捕鱼小游戏。
+      -
+        des: !!md |
+          熟悉  Express, MongoDB, Mysql 能搭建简单的后端项目
+      -
+        des: !!md |
+          熟悉ajax，axios,fetch，请求数据
+      -
+        des: !!md |
+          现阶段在学TS语言和Reason框架。san和egg这些框架也是简单了看了一些文章，暂时不打算学。看公司需求学。加油ヾ(◍°∇°◍)ﾉﾞ
+
+
+
+---
